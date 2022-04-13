@@ -1,0 +1,32 @@
+{		
+	name: "voyen057/mypackage",		
+	description: "mypackage"		
+	keywords: [		
+	mypackage
+    ],		
+	authors: [
+        {		
+	name: "voyen057",		
+	email: "voyen057.com@gmail.com"
+        }
+    ],		
+	license: "MIT",		
+	require: {},		
+	require-dev: {},		
+	autoload: {		
+	classmap: [		
+	database
+        ],		
+	psr-4: {		
+	Voyen057\\Mypackage\\: "src/"
+        }
+    },		
+	autoload-dev: {		
+	classmap: []
+    },		
+	scripts: {},		
+	minimum-stability: "dev",		
+	config: {		
+	preferred-install: "dist"
+    }
+}
